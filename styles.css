@@ -132,3 +132,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Пример медиа-запросов для адаптивного дизайна */
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .portfolio-item {
+        padding: 15px;
+    }
+}
