@@ -216,4 +216,43 @@ footer {
     0% { transform: translateX(0); }
     100% { transform: translateX(100%); }
 }
+.portfolio-section {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.portfolio-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.portfolio-item img, 
+.portfolio-item video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    font-size: 1em;
+    color: #666;
+}
 
